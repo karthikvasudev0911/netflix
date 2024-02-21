@@ -1,0 +1,70 @@
+body {
+    background-image: url('netflix1.jpg');
+    background-size: cover;   
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.Text {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: red;
+    letter-spacing: 0.2rem;
+    padding-left: 9rem;
+    text-align: center; 
+}
+
+button {
+    border-radius: 7px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    background: #f51818;
+    padding: 9px;
+    margin: 5px; 
+}
+
+.buttons {
+    padding-top: 1.5rem;
+    text-align: center;
+    padding-left: 62rem;
+}
+
+.content {
+    color: #fff;
+    font-size: 3rem;
+    padding-top: 2rem; 
+    text-align: center; 
+}
+
+.subcontent, .paragraph {
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.paragraph {
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 780px) {
+    .header {
+        flex-direction: column; 
+    }
+
+    .Text {
+        padding-left: 0;
+    }
+
+    .buttons {
+        padding-left: 0;
+    }
+
+    .content {
+        padding-left: 0;
+    }
+}
